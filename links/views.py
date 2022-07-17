@@ -2,8 +2,7 @@ from django.shortcuts import render
 from rest_framework import generics
 from links.serializers import LinkSerializer
 from rest_framework.generics import ListAPIView,CreateAPIView, UpdateAPIView, DestroyAPIView, RetrieveAPIView 
-#from I4G014013AHX.links import serializers
-#from I4G014013AHX.links.serializers import LinkSerializer
+
 from .models import Link
 
 # Create your views here.
